@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Bliss';
-    src: url("./static/fonts/Bliss2-Bold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-CENEO//static/fonts/Bliss2-Bold.woff") format("woff");
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy SemiBold';
-    src: url("./static/fonts/Gilroy-SemiBold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-CENEO//static/fonts/Gilroy-SemiBold.woff") format("woff");
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy';
-    src: url("./static/fonts/Gilroy-Regular.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-CENEO//static/fonts/Gilroy-Regular.woff") format("woff");
     font-display: swap;
   }
 
