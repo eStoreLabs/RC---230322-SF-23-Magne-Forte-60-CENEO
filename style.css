@@ -38,6 +38,24 @@ html {
     background-color: #fff;
 }
 
+#es-magne-b6.es-magne-b6 label {
+    color: white!important;
+}
+
+#es-magne-b6.es-magne-b6 [type=checkbox]+label {
+    position: static!important;
+    cursor: pointer!important;
+    display: block!important;
+    font-size: 1.5rem!important;
+    padding-left: 0!important;
+    font-family: "Gilroy SemiBold"!important;
+    color: white!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -khtml-user-select: none!important;
+    -ms-user-select: none!important;
+}
+
 #es-magne-b6.es-magne-b6 .es-index {
     line-height: 0;
     font-size: 60%;
@@ -612,6 +630,10 @@ html {
     display: none;
 }
 
+#es-magne-b6.es-magne-b6 #es-dose-expand-toggle+label:before {
+    display: none!important;
+}
+
 #es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose__hidden {
     visibility: visible;
     height: auto;
@@ -619,7 +641,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose-expand-btn {
-    display: none;
+    display: none!important;
 }
 
 #es-magne-b6.es-magne-b6 .es-dose__hidden {
@@ -827,7 +849,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle:checked ~ #es-ingredients-expand-btn {
-    display: none;
+    display: none!important;
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__hidden {
@@ -886,10 +908,11 @@ html {
 
 #es-magne-b6.es-magne-b6 .es-video {
     width: 100%;
+    padding: 30px;
 }
 
 #es-magne-b6.es-magne-b6 .es-video__iframe {
-    min-height: 270px;
+    aspect-ratio: 16/9;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross {
@@ -1005,6 +1028,10 @@ html {
     height: 0px;
     opacity: 0;
     transition: all 0.3s ease-out;
+}
+
+#es-magne-b6.es-magne-b6 .es-footer {
+    padding-inline: 16px;
 }
 
 #es-magne-b6.es-magne-b6 .es-footer__content {
@@ -1389,13 +1416,7 @@ html {
         max-width: 555px;
         font-size: 20px;
     }
-    #es-magne-b6.es-magne-b6 .es-video {
-        width: 80%;
-        margin-inline: auto;
-    }
-    #es-magne-b6.es-magne-b6 .es-video__iframe {
-        min-height: 400px;
-    }
+
     #es-magne-b6.es-magne-b6 .es-cross__content {
         flex-direction: row;
         flex-wrap: wrap;
